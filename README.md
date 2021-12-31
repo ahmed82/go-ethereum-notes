@@ -15,9 +15,12 @@ sudo apt-get install build-essential
 ```
 
 ## c compiler gcc not found
-```
+
 download MinGW on http://www.mingw.org/
 install on basic package Gcc-g++ (see this image)
 add on environment Patch of windows variables.
 restart and continue with "go get ..."
+```
+choco install mingw -y
+gcc -v
 ```
