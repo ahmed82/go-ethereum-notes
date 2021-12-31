@@ -26,3 +26,13 @@ https://jmeubank.github.io/tdm-gcc/
 choco install mingw -y
 gcc -v
 ```
+
+# Ubuntu 
+## VM fresh setup
+```
+sudo apt install git
+sudo apt  install golang-go
+/SperaxChain/cmd/geth$ go make .
+sudo apt  install golang-go
+./geth --testnet --rpc console
+```
