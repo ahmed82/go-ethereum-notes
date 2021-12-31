@@ -20,6 +20,8 @@ download MinGW on http://www.mingw.org/
 install on basic package Gcc-g++ (see this image)
 add on environment Patch of windows variables.
 restart and continue with "go get ..."
+OR
+https://jmeubank.github.io/tdm-gcc/
 ```
 choco install mingw -y
 gcc -v
