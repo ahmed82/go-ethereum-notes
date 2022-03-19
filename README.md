@@ -18,15 +18,17 @@ c compiler gcc not found
 
 # Windows
 - Download MinGW on http://www.mingw.org/
-install on basic package Gcc-g++ (see this image)
-add on environment Patch of windows variables.
+- install basic package Gcc-g++ (see this image)
+- add on environment Patch of windows variables.
 restart and continue with "go get ..."
 OR
 https://jmeubank.github.io/tdm-gcc/
 ```
-choco install mingw -y
-gcc -v
+- https://chocolatey.org/install
+- choco install mingw -y
+- gcc -v
 ```
+ref:https://stackoverflow.com/questions/43580131/exec-gcc-executable-file-not-found-in-path-when-trying-go-build
 
 # Ubuntu 
 ## VM fresh setup
